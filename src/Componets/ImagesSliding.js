@@ -19,8 +19,8 @@ const ImageSlider = () => {
         
         
       <div align="center"  className='ImageColuring' >
-        <a href='https://www.indiaglitz.com/hindi-actress-kriti-sanon-photos-7065'>
-        <img src="https://shorturl.at/mtv12" alt="Image are still loading" height="550px" weight="550px"   />
+        <a href='https://www.bollywoodhungama.com/photos/celeb-photos/kriti-sanon/kriti-sanon-4-188/'>
+        <img src="https://i.pinimg.com/474x/0b/1f/f5/0b1ff518bdb8c527d94a636bd48a6923.jpg" alt="Image are still loading" height="550px" weight="550px"   />
         </a>
       </div>
      
