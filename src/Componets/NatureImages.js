@@ -24,7 +24,7 @@ const ImageGallery = () => {
     
     const fetchData = async () => {
         try {
-            let pageNum=incrementCount();
+            let pageNum=incrementCount;
           const url='https://api.unsplash.com/photos?page='+(pageNum);
           
           const response = await axios.get(url, {
