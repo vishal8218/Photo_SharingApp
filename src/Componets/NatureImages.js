@@ -3,8 +3,20 @@ import axios from 'axios';
 import { Pagination, PaginationItem } from '@mui/material';
 
 const ImageGallery = () => {
-    const pageNumber=90;
-    let pageNum=2;
+    
+    const [pageNumbers,setPageNum]=useState(0);
+    const [prevCount,setPrevCount]=useState(null);
+    useEffect(()=>
+        {
+            setPrevCount(pageNumbers)
+        },[pageNumbers]
+        );
+
+     const incrementCount = () => {
+    setCount(prevCount => prevCount + 1);
+  };
+    
+        
   const [images, setImages] = useState([]);
     
   const changePage=()=>
@@ -12,6 +24,7 @@ const ImageGallery = () => {
     
     const fetchData = async () => {
         try {
+            let pageNum=incrementCount();
           const url='https://api.unsplash.com/photos?page='+(pageNum);
           
           const response = await axios.get(url, {
