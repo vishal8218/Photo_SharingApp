@@ -13,7 +13,7 @@ const ImageGallery = () => {
         );
 
      const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
+    setPageNumbers(prevCount => prevCount + 1);
   };
     
         
