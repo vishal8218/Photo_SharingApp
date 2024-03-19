@@ -9,7 +9,7 @@ const ImageGallery = () => {
     useEffect(()=>
         {
             setPrevCount(pageNumbers)
-        },[pageNumbers]
+        },[]
         );
 
      const incrementCount = () => {
