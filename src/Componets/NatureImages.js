@@ -4,7 +4,7 @@ import { Pagination, PaginationItem } from '@mui/material';
 
 const ImageGallery = () => {
     
-    const [pageNumbers,setPageNum]=useState(0);
+    const [pageNumbers,setPageNumbers]=useState(0);
     const [prevCount,setPrevCount]=useState(null);
     useEffect(()=>
         {
@@ -46,7 +46,7 @@ const ImageGallery = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const url='https://api.unsplash.com/photos?page='+(pageNumber);
+        const url='https://api.unsplash.com/photos?page='+(pageNumbers);
         const response = await axios.get(url, {
           params: {
             client_id: 'sLrqzwWe-hrskDJeKflfr1t1UOFzMM8hEJL1oda1-nQ',
