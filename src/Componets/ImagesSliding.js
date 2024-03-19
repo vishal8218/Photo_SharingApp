@@ -31,7 +31,7 @@ const ImageSlider = () => {
       </div>
       <div align="center" className='ImageColuring'>
         <a href='https://zeenews.india.com/telugu/photo-gallery/actress-kiara-advani-looking-hot-in-latest-black-saree-images-63780'>
-        <img src="https://shorturl.at/lyDE8" alt="Image..."  height="550px" weight="550px" />
+        <img src="https://w0.peakpx.com/wallpaper/958/689/HD-wallpaper-kriti-sanon-actress-babe-bollywood-celebrity-hot-sexy.jpg" alt="Image..."  height="550px" weight="550px" />
         </a>
       </div>
     </Slider>
