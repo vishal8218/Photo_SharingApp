@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-    <h3>Photo-Sharing-App</h3>
+    <h3 align="center">Photo-Sharing-App</h3>
       <ImageSlider />
       <br />
       <Welcome />
