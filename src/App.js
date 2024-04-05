@@ -32,7 +32,6 @@ function App() {
       <br />
       <ImageGallery />
       <br/>
-          <AudioPlayer/>
 
 
     </div>
