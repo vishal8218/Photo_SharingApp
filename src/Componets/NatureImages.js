@@ -79,7 +79,7 @@ const ImageGallery = () => {
        
       </div>
   
-    <Pagination onClick={changePage}></Pagination>
+    <Button onClick={changePage}>Next</Button>
     
     </div>
   );
