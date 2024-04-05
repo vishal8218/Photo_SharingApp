@@ -7,6 +7,8 @@ import ImageGallery from './Componets/NatureImages';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+import AudioPlayer from './Componets/AudioPlayer';
+
 
 
 
@@ -30,7 +32,7 @@ function App() {
       <br />
       <ImageGallery />
       <br/>
-          
+          <AudioPlayer/>
 
 
     </div>
