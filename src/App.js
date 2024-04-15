@@ -24,12 +24,10 @@ function App() {
     </div>
       <ImageSlider />
       <br />
-      // <Welcome />
-      // <br />
+     
       <HeadingDisplay/>
       <br />
-      // <CheckboxesGroup />
-      // <br />
+      
       <ImageGallery />
       <br/>
 
