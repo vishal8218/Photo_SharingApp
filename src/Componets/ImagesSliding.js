@@ -25,8 +25,8 @@ const ImageSlider = () => {
       </div>
      
       <div align="center" className='ImageColuring' >
-      <a href='https://wallpapers.com/kriti-sanon-pictures'>
-        <img src="https://shorturl.at/crswE" alt="Image are still loading" height="550px" weight="550px"/>
+      <a href='https://wallpapers.com/images/high/indian-female-model-kriti-sanon-fsr64epjrdhyr620.webp'>
+        <img src="https://wallpapers.com/images/high/indian-female-model-kriti-sanon-fsr64epjrdhyr620.webp" alt="Image are still loading" height="550px" weight="550px"/>
         </a>
       </div>
       <div align="center" className='ImageColuring'>
